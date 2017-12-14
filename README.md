@@ -27,7 +27,7 @@ Parser.h & Parser.cpp
 
 Solver.h & Solver.cpp
 
-- Data are loaded on the device (GPU) and a nonlinear solver is running
+- Load data on the device (GPU) and run a nonlinear solver
 - __You need to create a nonlinear solver by implementing some CUDA kernels__
 
 ## Others
@@ -36,14 +36,14 @@ Solver.h & Solver.cpp
 
 Global.h
 
-- Some data structures used throughout the project are defined
+- Define some data structures used throughout the project
 - Each vertex is related to four nodes with indices and weights
 
 ### Config
 
 Config.h
 
-- Some global constants used throughout the project are defined
+- Define some global constants used throughout the project
 
 ### Main
 
